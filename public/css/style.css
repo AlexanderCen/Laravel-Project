@@ -1,0 +1,308 @@
+html{
+    scroll-behavior: smooth;
+
+}
+
+#imgContain{
+    width: 50%;
+    height: 50%;
+    display: block;
+}
+
+#imgContain > img{
+    max-width: 50%;
+    max-height: 50%;
+    display: block;
+}
+#container{
+    width: 1050px;
+
+}
+#container img{
+    width: 100%;
+}
+.isi{
+    white-space: pre-line;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+.shortdesc{
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: right;
+    font-size: 50pt;
+    color: rgb(255, 255, 255);
+    padding-top: 100px;
+    padding-right: 300px;
+}
+.subtitle_container{
+    position: absolute;
+    left: 82%;
+    bottom: 30%;
+}
+.subtitle{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 25pt;
+}
+.subtitle:hover{
+    text-decoration: none;
+    color: rgb(0, 173, 253);
+    cursor: pointer;
+}
+.virus{
+    background-image: url('virus 2.jpg');
+    padding-top: 50px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.vl{
+    border-left: 10px solid rgb(255, 255, 255);
+    height: 270px;
+    position: absolute;
+    left: 80%;
+    margin-left: -3px;
+    top: 27%;
+}
+
+hr{
+    width: 50%;
+}
+.infografis1{
+    padding-left: 164px;
+}
+#gejala, #pencegahan, #perawatan, #varian, #dampak, #vaksin{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    font-size: 14pt;
+    width: 1000px;
+}
+#descButton{
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+}
+#gejalaDesc, #pencegahanDesc, #perawatanDesc, #varianDesc, #vaksinDesc{
+    padding-top: 20px;
+}
+.mask_image{
+    margin-left: 120px;
+    width: 750px;
+    height: 500px;
+}
+
+.perawatan_image{
+    width: 750px;
+    height: 500px;
+    margin-left: 120px;
+}
+
+.variant_image{
+    width: 800px;
+    height: 500px;
+    margin-left: 110px;
+}
+.buttons{
+    float: right;
+    border: 1px solid rgb(0, 173, 253);
+    border-radius: 70%;
+}
+#faqFlag{
+    margin-top: 400px;
+}
+#FAQ{
+    width: 1000px;
+    font-size: 14pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    padding-bottom: 50px;
+}
+#FAQ h1 b{
+    border-bottom: 5px solid rgb(192, 4, 4);
+    padding-bottom: 5px;
+}
+#question{
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+}
+.answer{
+    display: none;
+}
+#topbutton{
+  z-index: 1;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-size: 18pt;
+  border: 1px solid grey;
+  background-color: white;
+  cursor: pointer;
+  padding: 14px 22px 14px 22px;
+  border-radius: 50%;
+}
+#topbutton:hover{
+    background-color: grey;
+    color: white;
+}
+#linkbutton{
+    z-index: 1;
+    position: fixed;
+    height: 70px;
+    width: 70px;
+    bottom: 10px;
+    left: 50px;
+    font-size: 18pt;
+    border: 1px solid grey;
+    background-color: white;
+    color: grey;
+    cursor: pointer;
+    border-radius: 50%;
+}
+#linkbutton:hover{
+    background-color: rgb(106, 229, 238);
+    border: 1px solid rgb(106, 229, 238);
+}
+#linkbutton img{
+    padding: 6px 0px 0px 10px;
+    height: 60px;
+    width: 60px;
+}
+#linkbutton:hover .tooltiptext{
+    visibility: visible;
+    opacity: 1;
+}
+.tooltiptext{
+    visibility: hidden;
+  width: 200px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -100px;
+  opacity: 0;
+  transition: opacity 1.5s;
+}
+.tooltiptext::after{
+    content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+#box-berita{
+    padding-bottom: 10px;
+    width: 1050px;
+}
+#box-berita img{
+    padding-left: 170px;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.tab button.active{
+    color:  rgb(9, 194, 255);
+}
+.tablinks{
+    border: none;
+    border-bottom: 1px solid;
+    margin: 0px 20px 20px 0px;
+    background-color: white;
+    color: rgb(66, 66, 66);
+}
+.tablinks:hover{
+    color: rgb(9, 194, 255);
+}
+.ytChannel{
+    position: absolute;
+    left: 0;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    padding-left: 100px;
+    width: 100%;
+    height: 300px;
+}
+.ytChannel h1{
+    text-align: center;
+    padding-right: 100px;
+}
+.channel{
+    display: inline-block;
+    padding-top: 50px;
+    margin-left: 150px;
+}
+
+.channel a{
+    padding: 10px 30px 10px 30px;
+    margin-left: 2px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid rgb(216, 160, 7);
+    color: rgb(216, 160, 7);
+}
+.channel a:hover{
+    background-color: rgb(216, 160, 7);
+    color: white;
+    transition: 300ms;
+}
+.ytProfile{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.continerdalam{
+    margin-bottom: 20px;
+}
+.vl-1{
+    border-bottom: 10px solid rgb(7, 180, 7);
+    width: 110px;
+    opacity: 50%;
+    margin-bottom: 10px;
+}
+.text-2{
+    color: yellow;
+}
+.vl-2{
+    border-bottom: 10px solid yellow;
+    width: 110px;
+    opacity: 50%;
+    margin-bottom: 10px;
+}
+.text-3{
+    color: orange;
+}
+.vl-3{
+    border-bottom: 10px solid orange;
+    width: 110px;
+    opacity: 50%;
+    margin-bottom: 10px;
+}
+.vl-4{
+    border-bottom: 10px solid red;
+    width: 110px;
+    opacity: 50%;
+    margin-bottom: 10px;
+}
+.pagination{
+    position: absolute;
+    right: 50px;
+    padding-bottom: 50px;
+}
+.card-deck .card {
+    max-width: calc(25% - 30px);
+}
+
